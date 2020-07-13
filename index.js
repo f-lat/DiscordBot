@@ -7,9 +7,9 @@ bot.on('ready', () => {
 	});
 
 bot.on('message',(msg)=> {
-	if (msg.author.discriminator ==='6629' || msg.author.username === 'Naveed Ali') 
+	if (msg.author.discriminator === YOUR_DISCRIMINATOR || msg.author.username === YOUR_USERNAME) 
 	{
-		msg.channel.send('Naveed ney chuss mari hai bhai sun lo !');
+		msg.channel.send(YOUR_MESSAGE);
 	}	
 	});
 
